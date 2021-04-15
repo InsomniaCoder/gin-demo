@@ -13,6 +13,13 @@ $ go get github.com/go-sql-driver/mysql
 go run main.go
 ```
 
+For Docker
+
+```
+docker build . -t insomniacoder/gin-101
+docker run -p 8080:8080 -dit insomniacoder/gin-101
+```
+
 ## Tools
 
 Gin = Go's API Framework
